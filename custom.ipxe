@@ -24,8 +24,8 @@ imgargs vmlinuz put_kernel_img_args_here
 boot || goto custom_exit
 
 :option_two
-kernel https://boot.netboot.xyz/memdisk raw iso
-initrd http://path.to/iso
+kernel http://10.244.116.19/memdisk raw iso
+initrd http://10.244.116.19/clonezilla-live-2.6.6-15-amd64.iso
 boot || goto custom_exit
 
 :option_three
